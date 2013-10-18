@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.Spinner;
 
 public class MainActivity extends Activity {
 
@@ -17,6 +19,10 @@ public class MainActivity extends Activity {
 
         ImageView foto = (ImageView) findViewById(R.id.foto);
         foto.setImageResource(R.drawable.megan);
+
+        Spinner spinner = (Spinner) findViewById(R.id.spinner01);
+        ArrayAdapter<CharSequence> adaptador = ArrayAdapter.createFromResource(this,R.array.peliculas,android.R.layout.simple_spinner_item);
+        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
     }
 
 

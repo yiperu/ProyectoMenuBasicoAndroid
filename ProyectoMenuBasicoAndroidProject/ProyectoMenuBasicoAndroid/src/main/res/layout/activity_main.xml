@@ -14,12 +14,19 @@
         android:text="@string/hello_world"
         android:id="@+id/textView" />
 
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner01"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_marginTop="18dp" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/foto"
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_marginTop="27dp" />
+        android:layout_below="@+id/spinner01"
+        android:layout_alignLeft="@+id/spinner01" />
 
 </RelativeLayout>

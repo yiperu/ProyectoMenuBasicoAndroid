@@ -3,7 +3,7 @@
 
     <string name="app_name">ProyectoMenuBasicoAndroid</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Proyecto Menu Basico Actualizado!</string>
+    <string name="hello_world">Proyecto Menu Basico conSpinner!</string>
     <string name="m_inicio">Inicio</string>
     <string name="m_editar">Editar</string>
     <string name="m_about">About</string>
@@ -11,5 +11,14 @@
     <string name="m_inicio_guardar">Guardar</string>
     <string name="tituloAlerta">Alerta de Proyecto Menu</string>
 
+    <string-array name="peliculas">
+        <item>Transformers</item>
+        <item>Corazon Valiente</item>
+        <item>Iron Man</item>
+        <item>Tor</item>
+        <item>SpiderMan</item>
+        <item>SuperMan</item>
+        <item>Matrix</item>
+    </string-array>
 
 </resources>
